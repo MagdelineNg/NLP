@@ -16,7 +16,7 @@ Given this situation, it would be crucial to not only distinguish between the ty
 
 
 
-**How can technology help?:
+**How can technology help?:**
 
 Given that we can expect the number of emergency calls to potentially increase in a pandemic, we ought to take steps to ensure that the workflow of emergency medical services calls are optimized and done efficiently so as to better protect and save lives in Singapore. 
 
