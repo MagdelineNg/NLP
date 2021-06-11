@@ -41,6 +41,8 @@ https://youtu.be/-hbmXX6XbTo
 
 **The architecture of our proposed solution:**
 
+https://github.com/MagdelineNg/nlpcode/blob/7e1ad5d2c6f13d963bc250fcaf1688c7b5654423/Screenshot%202021-06-11%20at%209.35.11%20PM.png
+
 Firstly, both phone recordings between call bot AI and caller, as well as, important details will be stored into IBM Db2 database as it allows large storage of different types of files. This is done by converting speech to text via Natural Language Processing (NLP).
 
 Furthermore, we will use IBM Watson to help in the classification of emergency and non-emergency cases. This would help to make more accurate predictions in future outcomes and optimize employees' time.
