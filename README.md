@@ -41,7 +41,8 @@ https://youtu.be/-hbmXX6XbTo
 
 **The architecture of our proposed solution:**
 
-https://github.com/MagdelineNg/nlpcode/blob/main/Our%20Solution%20Architecture%20.png?raw=true
+![Architecture]
+(https://github.com/MagdelineNg/nlpcode/blob/main/Our%20Solution%20Architecture%20.png?raw=true)
 
 Firstly, both phone recordings between call bot AI and caller, as well as, important details will be stored into IBM Db2 database as it allows large storage of different types of files. This is done by converting speech to text via Natural Language Processing (NLP).
 
