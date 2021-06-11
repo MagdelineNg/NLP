@@ -1,12 +1,12 @@
 
-Team IDK
+**Team IDK
 Ananya
 Ho Chih Ying
 Paul Low
 Sydney Teo
-Magdeline Ng
+Magdeline Ng**
 
-A short description of the problem we are tackling:
+**A short description of the problem we are tackling:**
 
 In a pandemic situation, we can expect more emergency calls. These phone calls could be attributed to genuine health emergencies due to the virus as well as anxious calls from the public who are paranoid and suspect that they have contracted the disease. This can be seen during January to April 2020, where emergency medical service calls increased by 4% from 2019. Moreover, despite SCDF’s efforts to inform the public not to call "995" for non-emergencies, they might still increase due to the increased paranoia pandemics bring with them (Wong, 2021). In 2016, SCDF handled close to 180,000 emergency calls, of which almost 19,000 were false alarms and for non-urgent ailments such as constipation and chronic cough (Wong, 2021).
 
@@ -16,7 +16,7 @@ Given this situation, it would be crucial to not only distinguish between the ty
 
 
 
-How can technology help?:
+**How can technology help?:
 
 Given that we can expect the number of emergency calls to potentially increase in a pandemic, we ought to take steps to ensure that the workflow of emergency medical services calls are optimized and done efficiently so as to better protect and save lives in Singapore. 
 
@@ -27,19 +27,19 @@ If technology can be well harnessed to classify and prioritize calls, and if art
 
 
 
-The idea our team is proposing:
+**The idea our team is proposing:**
 SpeedCall, uses a human-like Artificial Intelligence to analyse the call using Natural Language Processing and classify it as an emergency or a non-emergency case. This is done using IBM Watson to make more accurate predictions and further optimize this process. Finally, dispatchers can view necessary information from a single sign-on protected dashboard.
 
 SpeedCall would allow scdf responders to focus on emergencies first. Our AI allows SCDF’s call center to be more robust and sieve out calls that need to be prioritized. This is significant as we should always be prepared for the worst in future pandemic situations. The workflow of emergency medical services calls must be optimized and done efficiently so as to better protect and save lives in Singapore. Moreover, our solution incorporates the use of a natural- sounding contextual AI. This would make our AI more personable and less obvious to the callee. 
 
 
 
-Pitch Video:
+**Pitch Video:**
 https://youtu.be/-hbmXX6XbTo
 
 
 
-The architecture of our proposed solution:
+**The architecture of our proposed solution:**
 
 Firstly, both phone recordings between call bot AI and caller, as well as, important details will be stored into IBM Db2 database as it allows large storage of different types of files. This is done by converting speech to text via Natural Language Processing (NLP).
 
@@ -49,12 +49,12 @@ Lastly, SCDF Dispatchers can view necessary information from the dashboard that 
 
 
 
-Hyperlink to our detailed solution (Long description of our solution):
+**Hyperlink to our detailed solution (Long description of our solution):**
 https://tinyurl.com/SpeedCallLongSolution
 
 
 
-Getting started (step-by-step instructions to install the required software and how to run a demo of your solution) :
+**Getting started (step-by-step instructions to install the required software and how to run a demo of your solution) :**
 
 Utilising SCDF’s years worth of transcripts of emergency and non-emergency calls, the data can be tokenized to obtain the keywords that constantly appear. These keywords, along with data on whether they resulted in an emergency response or a non-emergency response is utilised to form the priority list of keywords, which is then imputed into the IBM Cloud Python code. 
 
@@ -62,7 +62,7 @@ After this, when the transcript of a new call is run through the code, it will b
 
 
 
-What your team used to build your solution (e.g. IBM Cloud, etc…) :
+**What your team used to build your solution (e.g. IBM Cloud, etc…) :**
 Our team used IBM Cloud to build SpeedCall. We made use of various features such as IBM Watson studio, IBM Security verify Access, IBM Database and IBM Cloud object storage.
 
 We also made use of open source Python libraries like nltk, gensim and textblob to perform sentiment analysis and text detection on sample texts.
