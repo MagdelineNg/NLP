@@ -70,6 +70,7 @@ Our team used IBM Cloud to build SpeedCall. We made use of various features such
 We also made use of open source Python libraries like nltk, gensim and textblob to perform sentiment analysis and text detection on sample texts.
 
 
-**credits: https://medium.com/ai4allorg/using-natural-language-processing-to-prioritize-emergency-dispatch-calls-ab830a72de98
+**credits: **
+https://medium.com/ai4allorg/using-natural-language-processing-to-prioritize-emergency-dispatch-calls-ab830a72de98
 
 
